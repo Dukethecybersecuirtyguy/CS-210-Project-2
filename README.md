@@ -15,10 +15,10 @@ I would improve the code by adding robust execution logging and tightening the i
 To get the output to display precisely two decimal places and line up in the terminal columns, some trial and error was required. I experimented with various formatting settings and thoroughly read the official C++ instructions for the <iomanip> library to get around this. Standard library documentation websites will now always be a part of my problem-solving process.
 
 
-6.What skills from this project will be particularly transferable to other projects or course work?
+5.What skills from this project will be particularly transferable to other projects or course work?
 
 The concepts of object-oriented programming that are employed here can be applied in numerous other contexts. You can build secure backend scripts and perform infrastructure tasks without making your system more vulnerable if you understand how to manage data structures and safely encapsulate functionality.
 
-7.How did you make this program maintainable, readable, and adaptable?
+6.How did you make this program maintainable, readable, and adaptable?
 
 To make things easier to manage, I used more descriptive camelCase variable names, such as monthlyDeposit rather than just md. Additionally, I included thorough comments explaining the arithmetic utilized in the code. This eliminates the need for future developers or operations engineers to do the arithmetic themselves and allows them to grasp the concept immediately.
